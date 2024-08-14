@@ -12,5 +12,41 @@
 
 .contenido{
     background-color: var(--color-fondo);
-    
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__mensaje{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A3871;
+    width: 60%;
+}
+
+.container__mensaje_input{
+    height: 80vh;
+    text-decoration: none;
+    color: #0A3871;
+    border: none;
+    background-color: var(--color-fondo);
+}
+
+.container__mensaje_botones{
+    display: flex;
+    margin-top: 15px;
+}
+
+.container__resultado_mensaje{
+    background-color: #ffffff;
+    height: 90vh;
+    border-radius: 2rem;
+}
+
+.container__resultado_mensaje_img{
+    width: 70%;
+    height: 50%;
 }

@@ -9,16 +9,23 @@
 <body>
     <section class="contenido">
         <img src="./assets/Logo.png" alt="Logo de alura">
-        <div>
-            <input type="text">
-            <button>Encriptar</button>
-            <button>Desencriptar</button>
+        <div class="container">
+
+            <div class="container__mensaje">
+                <input class="container__mensaje_input" type="text" placeholder="ingresa tu texto aqui">
+                <div class="container__mensaje_botones">
+                    <button>Encriptar</button>
+                    <button>Desencriptar</button>
+                </div>  
+            </div>
+            <div class="container__resultado_mensaje">
+                <img class="container__resultado_mensaje_img" src="./assets/Muñeco.png" alt="Muñeco de alura buscando las palabras">
+                <h2>Ningun mensaje fue encontrado</h2>
+                <p>ingresa el texto que deses encriptar o desencriptar tu texto</p>
+            </div>
+
         </div>
-        <div>
-            <img src="./assets/Muñeco.png" alt="Muñeco de alura buscando las palabras">
-            <h2>Ningun mensaje fue encontrado</h2>
-            <p>ingresa el texto que deses encriptar o desencriptar tu texto</p>
-        </div>
+        
     </section>
 </body>
 </html>
