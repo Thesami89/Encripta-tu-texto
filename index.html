@@ -12,19 +12,21 @@
         <div class="container">
 
             <div class="container__mensaje">
-                <input class="container__mensaje_input" type="text" placeholder="ingresa tu texto aqui">
+                <input class="container__mensaje_input" type="text" placeholder="Ingresa tu texto aqui" id="mensaje" >
                 <div class="container__mensaje_botones">
-                    <button>Encriptar</button>
-                    <button>Desencriptar</button>
+                    <button onclick="sacarValor()" class="container__mensaje_botones_encriptador" id="encriptador" >Encriptar</button>
+                    <button class="container__mensaje_botones_desencriptador" id="desencriptar" >Desencriptar</button>
                 </div>  
             </div>
-            <div class="container__resultado_mensaje">
+            <div class="container__resultado_mensaje" id="resultado">
                 <img class="container__resultado_mensaje_img" src="./assets/Muñeco.png" alt="Muñeco de alura buscando las palabras">
-                <h2>Ningun mensaje fue encontrado</h2>
-                <p>ingresa el texto que deses encriptar o desencriptar tu texto</p>
+                <h2 class="container__resultado_mensaje_subtitulo">Ningun mensaje fue encontrado</h2>
+                <p class="container__resultado_mensaje_parrafo">ingresa el texto que deses encriptar o desencriptar tu texto</p>
             </div>
 
         </div>
+
+        <script src="../Funcionalidad.js"></script>
         
     </section>
 </body>
